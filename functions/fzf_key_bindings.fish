@@ -1,0 +1,1 @@
+/Users/lanzafame/.fzf/shell/key-bindings.fish
