@@ -20,8 +20,8 @@ source ~/.tacklebox/tacklebox.fish
 set -gx GOPATHV $HOME/Development/medusa/vendor
 set -gx GOPATHR $HOME/Development/medusa/redeye
 set -gx GOPATH $GOPATHV:$GOPATHR
-set -gx PATH $PATH $GOPATHV/bin
-
+set -gx GOBIN $GOPATHV/bin
+set -gx PATH $PATH $GOBIN
 # Load fishmarks (http://github.com/techwizrd/fishmarks)
 source $HOME/.fishmarks/marks.fish
 
